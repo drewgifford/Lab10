@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/drew/Lab10/build",
+  "command": "/usr/bin/g++   -g -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/runMain.dir/main.cpp.o -c /home/drew/Lab10/main.cpp",
+  "file": "/home/drew/Lab10/main.cpp"
+},
+{
+  "directory": "/home/drew/Lab10/build",
+  "command": "/usr/bin/g++   -g -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/runTests.dir/tests.cpp.o -c /home/drew/Lab10/tests.cpp",
+  "file": "/home/drew/Lab10/tests.cpp"
+}
+]

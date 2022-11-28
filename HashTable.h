@@ -1,21 +1,29 @@
 #pragma once
+#include "HashNode.h"
 
-template <class T>
+#include <memory>
+#include <vector>
+
+template <class K, class V>
 class HashTable {
 
     public:
-        HashTable();
+        HashTable(int);
         ~HashTable();
 
-        int hash(int);
+        int hash(K&);
+        void addItem(K, V);
 
-        bool addItem(T&);
-        T getItem(T&);
-        bool contains(T&);
+        shared_ptr<HashNode<K, V>> getItem(K);
+        bool contains(K);
+        int getCount();
 
     private:
 
         int m_size;
+        int m_count;
+
+        shared_ptr<HashNode<K,V>> * m_items;
 
 
 };

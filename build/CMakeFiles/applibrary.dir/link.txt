@@ -1,0 +1,2 @@
+/usr/bin/ar qc libapplibrary.a CMakeFiles/applibrary.dir/HashNode.cpp.o CMakeFiles/applibrary.dir/HashTable.cpp.o
+/usr/bin/ranlib libapplibrary.a
